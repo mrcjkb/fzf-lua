@@ -28,7 +28,7 @@ jobs:
             install-deps: choco install fzf ripgrep fd
           - os: ubuntu-latest
             install-deps: |
-              sudo apt-get update && sudo apt-get install -y ripgrep fd-find
+              sudo apt-get update && sudo apt-get install -y ripgrep fd-find fzf
               wget -O - https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-linux_amd64.tar.gz | tar zxfv -
               sudo mv ./fzf /bin
 
