@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, ubuntu-latest-arm, macos-latest, windows-latest]
+        os: [ubuntu-latest, ubuntu-22.04-arm, macos-latest, windows-latest]
         rev: [nightly, v0.11.3]
         include:
           - os: macos-latest
